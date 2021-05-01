@@ -4,15 +4,12 @@
     <div class="fixed bottom-0 w-full lg:w-24 lg:h-full z-10">
       <div class="w-full lg:w-24 h-full bg-blue-900 relative">
         <a 
-          href=""
-          class="hidden absolute top-10 left-1/2 transform -translate-x-1/2 lg:block w-14 h-14 bg-blue-50 rounded-xl"
-        ></a>
-        <div class="flex lg:flex-col items-center justify-center h-full space-x-4 lg:space-x-0 lg:space-y-4 py-4">
-          <a href="#" class="block w-14 h-14 bg-blue-200 rounded-xl"></a>
-          <a href="#" class="block w-14 h-14 bg-blue-200 rounded-xl"></a>
-          <a href="#" class="block w-14 h-14 bg-blue-200 rounded-xl"></a>
-          <a href="#" class="block w-14 h-14 bg-blue-200 rounded-xl"></a>
-        </div>
+          href="#"
+          class="hidden absolute top-10 left-1/2 transform -translate-x-1/2 lg:flex lg:justify-center lg:items-center w-14 h-14 rounded-xl hover:bg-white hover:bg-opacity-20"
+        >
+          <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>   
+        </a>
+        <MainNav />
       </div> 
     </div>
     <!-- Content  -->
