@@ -1,6 +1,9 @@
 <template>
   <div>
-    <Nuxt />
+    <div class="flex h-full">
+      <MainNav />
+      <Nuxt />
+    </div>
   </div>
 </template>
 

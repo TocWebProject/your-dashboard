@@ -25,12 +25,12 @@
         <div class="scroll-animate h-96 bg-blue-300"></div>
         <div class="scroll-animate h-96 bg-blue-200"></div>
         <div class="h-96 bg-blue-100"></div>
-    </div>  
+    </div>
 </template>
 
 <script>
 export default {
-  name: 'sport',
+  name: 'statistiques',
   transitions: 'page',
 
   mounted() {
