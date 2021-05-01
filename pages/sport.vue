@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-    <div class="min-w-full  flex flex-col">
+    <div class="min-w-full flex flex-col">
       <h1 
-        class="text-5xl text-blue-900 m-20"
+        class="text-5xl text-blue-900 m-20 mx-auto"
         v-gsap.fromTo="[
         { opacity: 0, x: -100 },
         { opacity: 1, x: 0 }
@@ -10,7 +10,7 @@
       >
         Sport
       </h1>
-      <NuxtLink class="text-2xl font-semibold text-blue-800 hover:text-blue-600 mb-20" to="/">Your Dashboard</NuxtLink>
+      <NuxtLink class="text-2xl font-semibold text-blue-800 hover:text-blue-600 mb-20 mx-auto" to="/">Your Dashboard</NuxtLink>
       <div class="scroll-animate h-96 bg-blue-200"></div>
       <div class="scroll-animate h-96 bg-blue-300"></div>
       <div class="scroll-animate h-96 bg-blue-400"></div>

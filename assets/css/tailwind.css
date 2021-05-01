@@ -3,9 +3,5 @@
 @import "tailwindcss/utilities"; 
 
 body {
-    @apply bg-blue-100;
-}
-
-.container {
-    @apply min-h-screen flex justify-center items-center text-center mx-auto;
+    @apply h-screen;
 }
