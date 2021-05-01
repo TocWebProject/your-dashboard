@@ -1,57 +1,50 @@
 <template>
   <div class="container">
-    <h1 class="text-5xl text-blue-900">
-      Your Dashboard
-    </h1>
+    <div class="min-w-full  flex flex-col">
+      <h1 
+        class="text-5xl text-blue-900 mt-20"
+        v-gsap.fromTo="[
+        { opacity: 0, x: -100 },
+        { opacity: 1, x: 0 }
+        ]"
+      >
+        Your Dashboard
+      </h1>
+      <NuxtLink to="/sport">Sport</NuxtLink>
+      <div class="h-80 bg-blue-300"></div>
+      <div class="h-80 bg-blue-400"></div>
+      <div class="h-80 bg-blue-500"></div>
+      <div class="scroll-animate h-80 bg-blue-600">
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'dashboard',
+  transitions: 'page',
+
+  mounted() {
+    this.animateOnScroll()
+  },
+
+  methods: {
+    animateOnScroll() {
+      // this.$gsap.to(window, { duration: 2, scrollTo: 1000 })
+
+      this.$gsap.from('.scroll-animate', {
+        ease: 'Power1.easeInOut',
+        scrollTrigger: {
+          trigger: '.scroll-animate',
+          scrub: 2,
+          start: 'top bottom',
+          end: 'top 60%'
+          },
+          opacity: 0,
+      })
+    }
+  }
+}
 </script>
 
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
