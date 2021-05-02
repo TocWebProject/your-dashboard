@@ -1,14 +1,14 @@
 <template>
     <!-- Main NavBar -->
-    <div class="fixed bottom-0 w-full lg:w-24 lg:h-full z-10">
-        <div class="w-full lg:w-24 h-full bg-blue-900 relative">
+    <div class="fixed bottom-0 w-full lg:w-20 lg:h-full z-10">
+        <div class="w-full lg:w-20 h-full bg-blue-900 relative">
             <NuxtLink 
             to="/"
             class="hidden absolute top-10 left-1/2 transform -translate-x-1/2 lg:flex lg:justify-center lg:items-center w-14 h-14 rounded-xl hover:bg-white hover:bg-opacity-20"
             >
             <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>   
             </NuxtLink>
-            <div class="flex lg:flex-col items-center justify-center h-full space-x-4 lg:space-x-0 lg:space-y-4 py-2 lg:py-4">
+            <div class="flex lg:flex-col items-center justify-center h-full space-x-8 lg:space-x-0 lg:space-y-4 py-2 lg:py-4">
                 <div class="group">
                     <NuxtLink to="/" :class="isActive01 ? 'nav-link-active' : 'nav-link'">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

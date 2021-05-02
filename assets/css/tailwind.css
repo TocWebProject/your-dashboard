@@ -7,9 +7,9 @@ body {
 }
 
 .nav-link-active {
-    @apply flex justify-center items-center w-10 h-10 lg:w-14 lg:h-14 rounded-xl bg-blue-50 text-blue-900 transform -translate-y-8 lg:-translate-y-0 lg:translate-x-8 duration-300 shadow-2xl border-2 border-blue-200;
+    @apply flex justify-center items-center w-10 h-10 lg:w-14 lg:h-14 rounded-xl bg-blue-50 text-blue-900 transform -translate-y-6 lg:-translate-y-0 lg:translate-x-8 duration-300 shadow-2xl border-2 border-blue-200;
 }
 
 .nav-link {
-    @apply flex justify-center items-center w-10 h-10 lg:w-14 lg:h-14 text-white opacity-80 rounded-xl group-hover:bg-blue-50 group-hover:opacity-100 group-hover:text-blue-700 transform group-hover:-translate-y-8 group-hover:lg:-translate-y-0 group-hover:lg:translate-x-10 duration-300 group-hover:shadow-2xl group-hover:border-2 group-hover:border-blue-200;
+    @apply flex justify-center items-center w-10 h-10 lg:w-14 lg:h-14 text-white opacity-80 rounded-xl group-hover:bg-blue-50 group-hover:opacity-100 group-hover:text-blue-700 transform group-hover:-translate-y-4 group-hover:lg:-translate-y-0 group-hover:lg:translate-x-10 duration-300 group-hover:shadow-2xl group-hover:border-2 group-hover:border-blue-200;
 } 

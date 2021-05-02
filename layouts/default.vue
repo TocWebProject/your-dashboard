@@ -2,7 +2,7 @@
   <div>
     <div class="flex h-full">
       <MainNav />
-      <Nuxt />
+      <Nuxt class="lg:ml-16"/>
     </div>
   </div>
 </template>

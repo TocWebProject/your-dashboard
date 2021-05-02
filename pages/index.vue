@@ -1,6 +1,6 @@
 <template>
     <!-- Content  -->
-    <div class="w-full p-4 lg:p-10 lg:ml-20">
+    <div class="w-full p-4 lg:p-10 lg:ml-24">
       <!-- Tools -->
       <Tools />
 
