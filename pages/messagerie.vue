@@ -7,7 +7,7 @@
             { opacity: 1, x: 0 }
             ]"
         >
-            Sport
+            Messagerie
         </h1>
         <NuxtLink class="text-2xl font-semibold text-blue-800 hover:text-blue-600 mb-20 mx-auto" to="/">Your Dashboard</NuxtLink>
         <div class="scroll-animate h-96 bg-blue-200"></div>
@@ -30,7 +30,7 @@
 
 <script>
 export default {
-  name: 'sport',
+  name: 'messagerie',
   transitions: 'page',
 
   mounted() {

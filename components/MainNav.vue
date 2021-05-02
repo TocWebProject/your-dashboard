@@ -17,7 +17,7 @@
                     </NuxtLink>
                 </div>
                 <div class="group">
-                    <NuxtLink to="sport" :class="isActive02 ? 'nav-link-active' : 'nav-link'">
+                    <NuxtLink to="messagerie" :class="isActive02 ? 'nav-link-active' : 'nav-link'">
                         <div >
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path></svg>
                         </div>
@@ -60,7 +60,7 @@ export default {
                 this.isActive02 = false;
                 this.isActive03 = false;
                 this.isActive04 = false;
-            } else if (this.$route.path === '/sport') {
+            } else if (this.$route.path === '/messagerie') {
                 this.isActive02 = true;
                 this.isActive01 = false;
                 this.isActive03 = false;
