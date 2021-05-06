@@ -14,7 +14,7 @@ export default {
   head: {
     title: 'your-dashboard',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'fr'
     },
     meta: [
       { charset: 'utf-8' },
@@ -80,6 +80,24 @@ export default {
     }
   },
 
+  // PWA
+  pwa: {
+    manifest: {
+      name: 'Your Dashboard',
+      lang: 'fr',
+      description: 'Dashboard Sportif',
+      background_color: '#2563eb',
+
+    },
+    meta: {
+      name:'Dashboard Sportif',
+      author: 'Yann',
+      lang: 'fr',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tortor diam, ullamcorper et sem laoreet, molestie accumsan lorem. Nullam vehicula, sapien vel fermentum porttitor, eros eros porttitor turpis, et eleifend elit purus vitae lectus. Nunc ac metus facilisis nisl convallis.',
+      theme_color: '#2563eb',
+    }
+  },
+
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
@@ -96,10 +114,13 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/pwa'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-   
+    babel: {
+      babelrc: true,
+    }
   }
 }
