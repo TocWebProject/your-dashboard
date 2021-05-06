@@ -19,7 +19,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tortor diam, ullamcorper et sem laoreet, molestie accumsan lorem. Nullam vehicula, sapien vel fermentum' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

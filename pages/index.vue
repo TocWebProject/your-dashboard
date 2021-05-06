@@ -1,6 +1,6 @@
 <template>
     <!-- Content  -->
-    <div class="w-full p-4 lg:p-10 lg:ml-24">
+    <main class="w-full p-4 lg:p-10 lg:ml-24">
       <!-- Tools -->
       <Tools />
 
@@ -62,7 +62,7 @@
           </div>  
         </div> 
       </div>   
-    </div>
+    </main>
 </template>
 
 <script>

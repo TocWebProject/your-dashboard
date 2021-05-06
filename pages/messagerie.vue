@@ -1,5 +1,5 @@
 <template>
-    <div class="min-w-full flex flex-col">
+    <main class="min-w-full flex flex-col">
         <h1 
             class="text-5xl text-blue-900 m-20 mx-auto"
             v-gsap.fromTo="[
@@ -25,7 +25,7 @@
         <div class="scroll-animate h-96 bg-blue-300"></div>
         <div class="scroll-animate h-96 bg-blue-200"></div>
         <div class="h-96 bg-blue-100"></div>
-    </div>  
+    </main>  
 </template>
 
 <script>
