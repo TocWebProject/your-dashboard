@@ -1,5 +1,15 @@
 # your-dashboard: Responsive dashboard with Nuxt.js & Tailwind.css
 
+<p>Perpective d'amélioration :</p>
+<ul>
+    <li>Constuire la page de messagerie</li>
+    <li>Construire les pages Blog et Articles</li>
+    <li>Système de notification</li>
+    <li>Système d'authentification</li>
+</ul>
+
+<a href="https://your-dashboard-develop.netlify.app/" target="_blank">Branch develop déployée</a>
+
 ## Build Setup
 
 ```bash
