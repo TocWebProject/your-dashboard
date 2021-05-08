@@ -56,6 +56,11 @@ export default {
             isActive04: false,
         }
     },
+    watch:{
+    $route (to, from){
+        this.findActivelink();
+        }
+    },
     methods: {
         findActivelink() {
             if (this.$route.path === "/") {
@@ -81,13 +86,6 @@ export default {
             }
         }
     },
-
-    watch:{
-    $route (to, from){
-        this.findActivelink();
-        }
-    },
-
     mounted() {
         this.findActivelink();
     }
